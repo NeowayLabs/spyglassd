@@ -12,7 +12,7 @@ anything, but right now it only probes networking stuff).
 Request:
 
 ```
-POST /probes
+POST /networking/probes
 ```
 
 With body:
