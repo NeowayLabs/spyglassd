@@ -74,7 +74,18 @@ TODO
 
 ## Running
 
-TODO: talk about cluster tagging
+There is two parameters to spyglassd:
+
+```sh
+spyglassd --storage-dir <storage_dir> --name <name>
+```
+
+The **--storage-dir** parameter is a directory where all state
+will be saved. If the directory does not exist it will be created.
+
+The **--name** parameter is the name that will be used to identify
+this agent on notifications, aiding debug with a more human understandable
+name instead of just an IP address.
 
 ## API
 
